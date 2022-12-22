@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+  
+  body{
+    background-image: linear-gradient(to bottom, rgb(164, 229, 229), pink , rgb(205, 236, 236));
+      width: 100vw;
+      height: 100vh;
+  }
+  
+  /* #Navbar{
+    background-color: rgb(13, 55, 119);
+    padding: 5px;
+    margin-bottom: 3rem;
+    font-family: 'Courgette', cursive;
+    display: flex;
+    justify-content: space-around;
+  } */
+  
+  .headd{
+    color: blueviolet;
+    text-decoration: none;
+    font-size: 2rem;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: cursive;
+    /* flex-flow: column;
+    justify-content: space-between; */
+    /* display: inline;
+    /* justify-items: self-start; */
+    /* justify-content: space-around; */ 
+   
+   
+  }
+  
+  .text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 5rem;
+    font-size: 1.3rem;
+    
+    
+  }
+  
+  .header{
+    margin-bottom: 1.5rem;
+    display: grid;
+    grid-template-columns: 20vw 20vw;
+    grid-gap: 15vh;
+    justify-content: space-between;
+  }
+  
+  h2{
+    font-family: 'Secular One', sans-serif;
+  }
+  
+  .butn{
+    background-color: rgb(136, 237, 136);
+    font-size: 1.5rem;
+    padding: 0 2rem;
+    border: 2px solid black;
+    border-radius: 25px;
+  }
+  
+  td{
+    padding: 15px !important;
+  }
+  
+  .algn{
+    text-align: right;
+  }
+  
+  .box{
+    width: 65vw;
+    margin: 20vh 6vw 10vh;
+  }
+  
+  .editFields{
+    width: 25vw;
+    height: 6vh;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    padding: 0 5px;
+  }
+  .editFields:hover{
+    border: 2px solid blue;
+  }
+  
+  
+  .box2{
+    width: 85vw;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .butn2{
+    background-color: rgb(129, 239, 129);
+    font-size: 1.3rem;
+    padding: 0.5rem 4rem;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin-left: 2vw;
+  }
+  
